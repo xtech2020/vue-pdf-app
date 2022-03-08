@@ -106,7 +106,7 @@ class BaseViewer {
     this.downloadManager = options.downloadManager || null;
     this.findController = options.findController || null;
     this.removePageBorders = options.removePageBorders || false;
-    this.textLayerMode = Number.isInteger(options.textLayerMode) ? options.textLayerMode : _ui_utils.TextLayerMode.ENABLE;
+    this.textLayerMode = _ui_utils.TextLayerMode.DISABLE;
     this.imageResourcesPath = options.imageResourcesPath || "";
     this.renderInteractiveForms = options.renderInteractiveForms || false;
     this.enablePrintAutoRotate = options.enablePrintAutoRotate || false;
